@@ -1,0 +1,104 @@
+/*Imitation Source: https://www.netflix.com/ng/*/
+/*https://gist.github.com/belloosagienoah/be5ae73fe34dac08e36ab6cf15e7607d*/
+
+html,
+body {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/0f162fd3-1c90-418b-a47e-6754bec8cc9b/NG-en-20191230-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  background-position: top;
+  background-size: cover;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body * {
+  position: relative;
+}
+
+section {
+  max-width: 55%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #e50914;
+}
+
+h1,
+h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.375rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.625rem;
+}
+
+.netflex-icon {
+  list-style: none;
+  font-size: 3.5rem;
+  font-weight: 300;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  height: 2rem;
+  width: 1rem;
+}
+
+li#sign-in {
+  background-color: #e50914;
+  padding: 0.6rem 1.5rem;
+  list-style: none;
+  border-radius: 0.25rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+#sign-in > a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  color: white;
+  background-color: #e50914;
+  border-radius: 0.125rem;
+  border: solid 0.25rem #e50914;
+  padding: 0.8125rem 3.25rem;
+  font-size: 1.625rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
